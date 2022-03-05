@@ -6,10 +6,10 @@ Access Termios settings from nodejs. The module exports a Termios class, that en
 ### Usage
 Use Openwrt SDK or Build system.
 
-- `./scripts/feeds update -a`
-- `./scripts/feeds install -a`
-- `make menuconfig`
-- `make package/node-termios/compile -j4 V=sc`
+- ```./scripts/feeds update -a```
+- ```./scripts/feeds install -a```
+- ```make menuconfig```
+- ```make package/node-termios/compile -j4 V=sc```
 
 pm2 cron startup :
 - `npm install pm2`
